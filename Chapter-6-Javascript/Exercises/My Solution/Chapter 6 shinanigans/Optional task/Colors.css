@@ -1,0 +1,48 @@
+.colorButton{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 75px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+    
+}
+button{
+    margin: 0 auto; 
+    display: block;
+    
+}
+
+.fontStyle{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+body {
+    position: relative; 
+    height: 100vh; 
+}
+.centered {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.hidden {
+    display: none; /* To hide the button */
+}

@@ -1,0 +1,12 @@
+/*change color when covering pver the button*/z
+#BTN{
+    margin-top: 30px;
+    button
+    {
+        background-color: rgb(255, 0, 0);
+    }
+    button:hover
+    {
+        background-color: rgb(0, 225, 255);
+    }
+}

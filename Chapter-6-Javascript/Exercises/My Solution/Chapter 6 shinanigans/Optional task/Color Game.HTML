@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="Colors.css">
+    <script src="Color randomizer.js"></script>
+</head>
+<body class="centered">
+    
+    <h1 >GUESS THE COLOR</h1>
+
+    <!--Randomized Colored buttons-->
+    <div class="colorButton" onclick="getButtonColor(this)">
+    </div>
+
+    <div class="colorButton" onclick="getButtonColor(this)">
+    </div>
+
+    <div class="colorButton" onclick="getButtonColor(this)">
+    </div>
+
+    <div class="fontStyle" id="Displayed_RGB"> 255,22,66</div>
+    
+    <!--Displays number of lives -->
+    <div class="fontStyle " id="Lives">
+        Number of Lives : 3
+    </div>
+
+    <!--Displays outcome-->
+    <div class="fontStyle" id="Answer">
+        Your choice is :
+        Correct / Wrong
+    </div>
+    
+    <!--buttons for next round and restart-->
+    <button class="fontStyle" id="nextRound" onclick="nextRound()">Next Round</button>
+    <button class="fontStyle" id="Restart" onclick="Restart()">Restart Game</button>
+
+    <!--Displays score-->
+    <div class="fontStyle" id="Score">Score : Numer of Rounds won</div>
+</body>
+</html>
